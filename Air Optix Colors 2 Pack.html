@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<link rel="icon" type="img" href="https://cdn-icons-png.flaticon.com/512/822/822102.png">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Title</title>
+<style>
+.box{
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+
+.form-select{
+    width: 100%;
+    margin-left: 10px;
+    align-items: center;
+}
+h5{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.form{
+    width: 100%;
+    height: 260px;
+    justify-content: center;
+}
+.word{
+  width: 80%;
+  margin-left: 50px;
+  color: white;
+  height: 55px;
+}
+.Pdf{
+  width: 80%;
+  margin-left: 50px;
+ color: white;
+  height: 55px;
+}
+
+.table{
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+h6{
+  font-size: larger;
+}
+.radio-toolbar{
+  width: 35%;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+#row {
+  width:50%;
+  height:30px;
+  height:60px;
+  padding:15px;
+  display:none;
+}
+#btn{
+  width: 50%;
+  margin-left: 5%;
+height: 50px;
+}
+
+
+</style>
+</head>
+<body>
+  <!-- navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light " >
+    <a id="mainlogo" class="navbar-brand " href="index.html" ><img src="./assets/image/eyeonicAsset-8.png" width="100px"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars" style="color: white;"></i>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto nav-fill w-50">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Home </a>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Brands
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="./sunglass.html">Sunglasses</a>
+            <a class="dropdown-item" href="./Eyeglasses.html">Eye Frames</a>
+            <a class="dropdown-item" href="./lenses.html">Lenes</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./sunglass.html">Sunglasses</a>
+              <a class="dropdown-item" href="./Eyeglasses.html">Eye Frames</a>
+              <a class="dropdown-item" href="./lenses.html">Lenes</a>
+            </div>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./compare.html">Compare Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+         </li>
+        </ul>
+       </div>
+       </nav>
+ 
+<!-- navbar end -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-5 co-lg-6">
+            <img src="https://www.opticontacts.com/cart/images/items/Air%20Optix%20Colors%202%20Pack_1.jpg" width="100%">
+        </div>
+        <div class="col-12 col-md-8 col-lg-6 box">
+            <h2 class="text-center">ALCON</h2>
+            <h1 class="text-center">Air Optix Colors 2 Pack</h1>
+            <p class="text-center">Rs 17,000 Regular price per box </p>
+            <div class="row form">
+                <div class="col-12 col-md-4">
+                <h5>Right Eye</h5>
+            <select class="form-select">
+                <option selected>0 Boxes</option>
+                <option value="1">1 Boxes</option>
+                <option value="2">2 Boxes</option>
+                <option value="3">3 Boxes</option>
+                <option value="1">4 Boxes</option>
+                <option value="2">5 Boxes</option>
+                <option value="3">6 Boxes</option>
+              </select>
+            </div>
+            <div class="col-12 col-md-4">
+                <h5>Left Eye</h5>
+              <select class="form-select">
+                <option selected>0 Boxes</option>
+                <option value="1">1 Boxes</option>
+                <option value="2">2 Boxes</option>
+                <option value="3">3 Boxes</option>
+                <option value="1">4 Boxes</option>
+                <option value="2">5 Boxes</option>
+                <option value="3">6 Boxes</option>
+              </select>
+            </div>
+            <button class="Show" id="btn">Download</button>
+            <div id="row">
+            
+              <a href="./word/Air Optix Colors 2 Pack.docx"><button class="word ">Word</button></a>
+              <a href="./Pdf/Air Optix Colors 2 Pack.pdf" target="blank"><button class="Pdf">Pdf</button></a>
+            </div>  
+          </div>                 
+            </div>
+             </div>
+             </div>
+          <div class="container">
+            <div class="row">
+              <table class="table col-12 col-md-5 col-lg-4">
+                <thead>
+                  <tr>
+                    <th scope="col"><h3>Product information:</h3></th>          
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><h6>Brand:</h6></th>                   
+                    <td>Air Optix</td>
+                    </tr>
+                  <tr>
+                    <th scope="row"><h6>Product Name:	</h6></th>
+                    <td>Air Optix Colors 2 Pack</td>              
+                  </tr>
+                  <tr>
+                    <th scope="row"><h6>Availability:</h6></th>
+                    <td>IN STOCK</td>
+                
+                  </tr>
+                  <tr>
+                    <th scope="row"><h6>Replacement:</h6></th>
+                    <td>1 month daily wear</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><h6>Material:</h6></th>                   
+                    <td> lotrafilcon B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><h6>Packaging</h6></th>    
+                    <td>1 box of 2 lenses</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="radio-toolbar col-12 col-md-5 col-lg-5"><h3 class="text-center">Colors</h3><br>
+        
+                <img src="https://www.opticontacts.com/cart/images/items/CLAOC2AL/Green_t.jpg">
+               <input type="radio" id="radioBanana" name="radioFruit" value="banana">
+               <label for="radioBanana">Green</label><br><br>
+           
+               <img src="https://www.opticontacts.com/cart/images/items/CLAOC2AL/Brown_t.jpg">
+               <input type="radio" id="radioOrange" name="radioFruit" value="orange">
+               <label for="radioOrange">Brown</label><br><br>
+       
+                <img src="https://www.opticontacts.com/cart/images/items/CLAOC2AL/Blue_t.jpg">
+               <input type="radio" id="radioBanana" name="radioFruit" value="banana">
+               <label for="radioBanana">Blue</label><br><br>
+           
+               <img src="https://www.opticontacts.com/cart/images/items/CLAOC2AL/Gray_t.jpg">
+               <input type="radio" id="radioOrange" name="radioFruit" value="orange">
+               <label for="radioOrange">Grey</label><br>     
+               </div>     
+              </div>           
+            </div>
+          
+
+
+<!-- -------------Footer Start----------------- -->
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+
+      <img src="./assets/image/eyeonicAsset-8.png" width="30%">
+
+      <p class="footer-links">
+          <a href="#" class="link-1">Home</a>
+          
+          <a href="#">Blog</a>
+      
+          <a href="#">Pricing</a>
+      
+          <a href="#">About</a>
+          
+          <a href="#">Faq</a>
+          
+          <a href="#">Contact</a>
+      </p>
+
+      <p class="footer-company-name">Company Name © 2015</p>
+  </div>
+
+  <div class="footer-center">
+
+      <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Near Lee Broast</span> Model colony Karachi</p>
+      </div>
+
+      <div>
+          <i class="fa fa-phone"></i>
+          <p>03102814020</p>
+      </div>
+
+      <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="bhamza4747@gmail.com">support@company.com</a></p>
+      </div>
+
+  </div>
+
+  <div class="footer-right">
+
+      <p class="footer-company-about">
+          <span>About the company</span>
+          Eyeonic is a company which makes various type of products like Lenses, Sunglasses, Eye frames.
+      </p>
+
+      <div class="footer-icons">
+
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+
+      </div>
+
+  </div>
+</footer>
+
+<!-- -------------Footer End----------------- -->
+
+
+
+
+<script>
+  $('.Show').click(function() {
+    $('#row').show(500);
+    $('.Show').hide(0);
+    $('.show').show(0);
+});
+$('.Hide').click(function() {
+    $('#row').hide(500);
+    $('.Show').show(0);
+    $('.show').hide(0);
+});
+$('.toggle').click(function() {
+    $('#row').toggle('slow');
+});
+</script>
+
+      
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
